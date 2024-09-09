@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class UIMode : MonoBehaviour
 {
     public GameObject uiSettingMode;
-    public void OpenSettingUI()
+    public void OpenSettingUI() 
     {
         uiSettingMode.SetActive(true);
     }
